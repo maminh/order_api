@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', include('products.urls')),
     path('orders/', include('orders.urls')),
-    path('docs/', include_docs_urls('Bonus Core API', public=True)),
+    path('docs/', include_docs_urls('Order API', public=True)),
 ]
