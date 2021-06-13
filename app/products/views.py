@@ -5,4 +5,4 @@ from . import models, serializers
 
 class ProductView(viewsets.ModelViewSet):
     queryset = models.Product.objects.all()
-    serializer = serializers.ProductSerializer
+    serializer_class = serializers.ProductSerializer
